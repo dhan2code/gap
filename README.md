@@ -1,5 +1,7 @@
 ## GAP - Groups, Algorithms, Programming - a System for Computational Discrete Algebra
 
+1. [Installation](#installation)
+
 ### Installation
 Choose your preferred archive format and [download](https://www.gap-system.org/Download/) the corresponding archive. Extract the file the details will be present in the *Install.md*. Now for **vim** and **emacs** we can do something special, check the *etc* folder on the downloaded file. By placing the *gaps.vim* in the *~/.vim/syntax* and *gap_indent.vim* in the *~/.vim/indent* we get syntax and indentation respectively for gap files. 
 
