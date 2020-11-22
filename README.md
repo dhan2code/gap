@@ -73,5 +73,7 @@ end;
 - Set (No holes and no multiplicity)
 - Range (its a list with increment 1)
 
-> I have made a cheatsheet for `gap`, check it out [here.](Cheatsheet.md]
+
+
+> I have made a cheatsheet for `gap`, check it out [here.](Cheatsheet.md)
 
