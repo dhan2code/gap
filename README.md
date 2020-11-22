@@ -61,7 +61,7 @@ end;
 
  **Example of Objects:**
 
-- Numbers
+- Numbers.
 - Strings (Characters)
 - Matrices
 - List (A collection of objects that have **holes** and multiplicity)
