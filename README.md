@@ -41,7 +41,7 @@ fi;
 
 ```
 And we have two ways to define a function.
-#### Defining Functions (Fibonacci function.)
+##### Defining Functions (Fibonacci function.)
 ```gap
 # first way.
 cubed:= x -> x^3;
@@ -60,7 +60,7 @@ end;
 ```
 
 ### Variables vs Objects.
- **Variables:** Specified by a sequence of letters and digits (including at least one letter), and their meaning depends on what has been assigned to them. An assignment is done by a GAP command `sequence_of_letters_and_digits := meaning,` where the sequence on the LHS is called the *identifier* of the variable and it serves as it's name. Then meaning on the RHS is made up of **GAP Objects**. 
+  Specified by a sequence of letters and digits (including at least one letter), and their meaning depends on what has been assigned to them. An assignment is done by a GAP command `sequence_of_letters_and_digits := meaning,` where the sequence on the LHS is called the *identifier* of the variable and it serves as it's name. Then meaning on the RHS is made up of **GAP Objects**. 
 
  We will use the term **object** to denote something that can be assigned to a variable.
 
