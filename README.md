@@ -63,7 +63,7 @@ end;
 
 - Numbers.
 - Strings (Characters).
-- Matrices
+- Matrices.
 - List (A collection of objects that have **holes** and multiplicity)
 - Set (No holes and no multiplicity)
 - Range (its a list with increment 1)
