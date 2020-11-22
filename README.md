@@ -25,7 +25,7 @@ while i < 10 do
 	i := i + 1;
 od;
 ```
-Here's an example of `if`.
+Here's an example of if conditional.
 ```
 n := 5;
 if n=1 then
