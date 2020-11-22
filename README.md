@@ -80,3 +80,4 @@ end;
 
 > I have made a cheatsheet for `gap`, check it out [here.](Cheatsheet.md)
 
+[**Back yo top**](#contents)
