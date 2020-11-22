@@ -5,7 +5,7 @@ Choose your preferred archive format and [download](https://www.gap-system.org/D
 
 If you can't find the *etc* file check my dotfiles [here.](https://github.com/dhan2code/dotfiles/tree/master/vim)
 
-And for auto detection of the gap file, create a *gaps.vim* file in *~/.vim/ftdetect*} and add the following lines.
+And for auto detection of the gap file, create a *gaps.vim* file in *~/.vim/ftdetect* and add the following lines.
 ```
 autocmd BufRead,BufNewFile *.g,*.gi,*.gd set filetype=gap comments=s:##    \ \ ,m:##\ \ ,e:##\ \ b:#
 ```
