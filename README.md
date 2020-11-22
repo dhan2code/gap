@@ -18,6 +18,7 @@ autocmd BufRead,BufNewFile *.g,*.gi,*.gd set filetype=gap comments=s:##    \ \ ,
 ### Running GAP.
 Opening GAP in terminal by running `gap program.g`. We can load a gap to an existing `gap` session by using the `Read("path");`. 
 > Please note the use of `;` after every command as an end to an command. 
+
 Now we can figure out `for` and `while` loops by example.
 
 ```
