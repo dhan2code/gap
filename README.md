@@ -43,7 +43,6 @@ And we have two ways to define a function.
 cubed:= x -> x^3;
 
 # second way.
-cubed(5);
 fib := function(n)
     if n=1 then
         return 1;
