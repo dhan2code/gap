@@ -5,19 +5,13 @@ Choose your preferred archive format and [download](https://www.gap-system.org/D
 
 If you can't find the *etc* file check my dotfiles [here.](https://github.com/dhan2code/dotfiles/tree/master/vim)
 
-And for autodetection of the gap file, create a *gaps.vim* file in *~/.vim/ftdetect*} and add the following lines.
+And for auto detection of the gap file, create a *gaps.vim* file in *~/.vim/ftdetect*} and add the following lines.
 ```
 autocmd BufRead,BufNewFile *.g,*.gi,*.gd set filetype=gap comments=s:##    \ \ ,m:##\ \ ,e:##\ \ b:#
 ```
+
 ### Running GAP.
-Opening GAP in terminal by runing `gap`.
-To load a GAP file (saved in `.g` format) by Using the` Read("path"); `
-
-### Syntax and thoughts on GAP.
-After every command use `;`, the semicolon can be thought of as an end of an command.
-
-### Loops for and while, and IF
-Let's figure this out by examples
+Opening GAP in terminal by running `gap program.g`. We can load a gap to an existing `gap` session by using the `Read("path");`. Please note the use of `;` after every command as an end to an command. Now we can figure out `for` and `while` loops by example.
 
 #### For loop.
 ```
@@ -33,6 +27,7 @@ while i < 10 do
 	i := i + 1;
 od;
 ```
+Here's an example of `if`.
 #### IF function.
 ```
 n := 5;
@@ -45,9 +40,13 @@ else
 fi;
 
 ```
+And we have two ways to define a function.
 #### Defining Functions (Fibonacci function.)
 ```
+# first way.
 cubed:= x -> x^3;
+
+# second way.
 cubed(5);
 fib := function(n)
     if n=1 then
@@ -74,20 +73,5 @@ end;
 - Set (No holes and no multiplicity)
 - Range (its a list with increment 1)
 
-## Cheatsheet
-
-| Name | Input | Output | Remarks|
-|:-|:-|:-|:-|
-|`Read("filepath")`| Gaps script | - | Add the gaps file to current session.|
-|`Append(lista,listb)`| Lists | List | Concatenate two lists.|
-|`Add(list,element)`| List, object| List | Add an element to list.|
-|`Length(list)`| List | Number | The length of an list|
-|`Position(list,object)`| List | Object | Position of an object in a list|
-|`ShallowCopy(list)`| List | List | Copy of a list to a new identifier.|
-|`AddSet(set,element)`| Set, element | Set | Adding an element to a set. |
-|`Product(list)`| List | Number | Multiplying each element of a list |
-|`List(list,function)`| List, function | List | The function acts on the list.|
-|`Filtered(list,statement)`| List, statement | List | The list is filtered.|
-|`ForAll(list,statement)`| List, statement | Bool | True for all elements.|
-|`Display(object)`| Object |-| Displays object |
+> I have made a cheatsheet for `gap`, check it out [here.](Cheatsheet.md]
 
