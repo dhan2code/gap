@@ -6,7 +6,7 @@
 1. [Variables vs Objects](#variables-vs-objects)
 
 ### Installation
-Choose your preferred archive format and [download](https://www.gap-system.org/Download/) the corresponding archive. Extract the file the details will be present in the *Install.md*. Now for **vim** and **emacs** we can do something special, check the *etc* folder on the downloaded file. By placing the *gaps.vim* in the *~/.vim/syntax* and *gap_indent.vim* in the *~/.vim/indent* we get syntax and indentation respectively for gap files. 
+Choose your preferred archive format and [download](https://www.gap-system.org/Download/) the corresponding archive. Extract the file, the instructions will be present in the *Install.md*. Now for **vim** and **emacs** we can do something special, check the *etc* folder on the downloaded file. By placing the *gaps.vim* in the *~/.vim/syntax* and *gap_indent.vim* in the *~/.vim/indent* we get syntax and indentation respectively for gap files. 
 
 If you can't find the *etc* file check my dotfiles [here.](https://github.com/dhan2code/dotfiles/tree/master/vim)
 
