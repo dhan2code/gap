@@ -42,7 +42,7 @@ fi;
 ```
 And we have two ways to define a function.
 #### Defining Functions (Fibonacci function.)
-```
+```gap
 # first way.
 cubed:= x -> x^3;
 
