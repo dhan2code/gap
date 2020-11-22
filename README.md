@@ -13,14 +13,12 @@ autocmd BufRead,BufNewFile *.g,*.gi,*.gd set filetype=gap comments=s:##    \ \ ,
 ### Running GAP.
 Opening GAP in terminal by running `gap program.g`. We can load a gap to an existing `gap` session by using the `Read("path");`. Please note the use of `;` after every command as an end to an command. Now we can figure out `for` and `while` loops by example.
 
-#### For loop.
 ```
 i := 0;
 for i in [1..10] do
 	i := i + 1;
 od;
 ```
-#### While loop.
 ```
 i :=0;
 while i < 10 do
@@ -28,7 +26,6 @@ while i < 10 do
 od;
 ```
 Here's an example of `if`.
-#### IF function.
 ```
 n := 5;
 if n=1 then
@@ -41,7 +38,6 @@ fi;
 
 ```
 And we have two ways to define a function.
-##### Defining Functions (Fibonacci function.)
 ```gap
 # first way.
 cubed:= x -> x^3;
