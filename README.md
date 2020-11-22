@@ -11,7 +11,7 @@ Choose your preferred archive format and [download](https://www.gap-system.org/D
 If you can't find the *etc* file check my dotfiles [here.](https://github.com/dhan2code/dotfiles/tree/master/vim)
 
 And for auto detection of the gap file, create a *gaps.vim* file in *~/.vim/ftdetect* and add the following lines.
-```
+```vim
 autocmd BufRead,BufNewFile *.g,*.gi,*.gd set filetype=gap comments=s:##    \ \ ,m:##\ \ ,e:##\ \ b:#
 ```
 
@@ -21,20 +21,20 @@ Opening GAP in terminal by running `gap program.g`. We can load a gap to an exis
 
 Now we can figure out `for` and `while` loops by example.
 
-```
+```gap
 i := 0;
 for i in [1..10] do
 	i := i + 1;
 od;
 ```
-```
+```gap
 i :=0;
 while i < 10 do
 	i := i + 1;
 od;
 ```
 Here's an example of if conditional.
-```
+```gap
 n := 5;
 if n=1 then
 	return 0;
